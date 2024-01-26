@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class NavLinks extends Component {
   render() {
     return (
-      <div>
+      <div className="flex-gap">
         <a>Projects</a>
         <a>About Me</a>
         <a>Contact</a>

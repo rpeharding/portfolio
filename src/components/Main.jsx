@@ -5,10 +5,10 @@ import MainInfo from "./MainInfo";
 class Main extends Component {
   render() {
     return (
-      <>
+      <div className="main">
         <Hero />
         <MainInfo />
-      </>
+      </div>
     );
   }
 }

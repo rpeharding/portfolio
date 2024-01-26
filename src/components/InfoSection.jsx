@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import List from "./List";
 
 class InfoSection extends Component {
   render() {
@@ -8,6 +9,7 @@ class InfoSection extends Component {
       <div className={infoSectionClass}>
         <h3>{title}</h3>
         <p>{text}</p>
+        {list && <List list={list} />}
       </div>
     );
   }

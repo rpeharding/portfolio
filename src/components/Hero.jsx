@@ -6,7 +6,7 @@ class Hero extends Component {
   state = {};
   render() {
     return (
-      <>
+      <div className="hero">
         <h1>Hi, I'm Rachel 👋</h1>
         <BodyText
           bodyTextClass="body-reg"
@@ -16,7 +16,7 @@ class Hero extends Component {
           and software engineering.`}
         />
         <Button text={"Contact Me"} btnClass="primary-btn" />
-      </>
+      </div>
     );
   }
 }
